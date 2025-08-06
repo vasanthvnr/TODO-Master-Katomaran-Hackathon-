@@ -1,0 +1,57 @@
+name: todo
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  http: ^0.13.6
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase & Auth
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.17.0
+
+  # Sign-In Providers
+  google_sign_in: ^6.2.1
+
+  # State management (optional but helpful for large apps)
+  provider: ^6.1.2
+
+  # UI Animations / Extensions (Optional but creative)
+  flutter_spinkit: ^5.2.0
+  animated_text_kit: ^4.2.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  intl: ^0.19.0
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_datetime_picker_plus: ^2.1.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.jpg"
+
+flutter:
+  uses-material-design: true
+
+  # Assets (if needed)
+  # assets:
+  #   - assets/images/
+
+  # Fonts (if needed)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
